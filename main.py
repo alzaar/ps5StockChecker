@@ -3,9 +3,7 @@ from notifier import notify_user
 from playsound import playsound
 import time
 
-url = 'https://INSERT_URL.com'
-url = 'https://www.nowinstock.net/ca/videogaming/consoles/sonyps5/'
-
+url = 'https://INSERT_URL'
 
 if __name__ == "__main__":
   counter = 1
