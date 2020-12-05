@@ -27,7 +27,6 @@ def get_availablity(url):
         counter += 1
         product_details = product_name.text
 
-  # all_products[1][1] = 'Available Bundle: Console w/Extra Controller & COD:Cold War : Walmart CA  Out of Stock $809.96 Nov 12 - 11:12 AM'
   for i in range(len(all_products)):
     product = all_products[i][i+1]
     if 'Available' in product:

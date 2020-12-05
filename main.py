@@ -10,12 +10,13 @@ url = 'https://www.nowinstock.net/ca/videogaming/consoles/sonyps5/'
 if __name__ == "__main__":
   counter = 1
   while True:
-    print(f'Round: {counter}')
+    print(f'Attempt: {counter}')
     stock_availble = get_availablity(url)
     
     if len(stock_availble) > 0:
       playsound('found.mp3')
       notify_user(stock_availble)
+      break
     
-    time.sleep(5)
+    time.sleep(600)
     counter += 1
