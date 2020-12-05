@@ -20,4 +20,4 @@ python main.py
 ```
 
 ## GUI Screen Grab
-![image](<image src="./notification.png" alt="notification"/>)
+<img src="./notification.png" alt="notification"/>
